@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(241, 253, 251);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background: url('./assets/back3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-family: "Roboto Serif", serif;
+    font-size: 100px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(to right, rgb(151, 15, 140), rgb(25, 25, 177));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.header_p {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.header_btn {
+    font-family: "Poppins", serif;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-family: "Roboto Serif", serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.video {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
