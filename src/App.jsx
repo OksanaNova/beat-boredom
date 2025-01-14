@@ -19,14 +19,26 @@ function App() {
       </div>
 
       <div className='container'>
-        <h2>Not sure what to do? Let us help!</h2>
+        <h2>Not sure what to do?  We've got some ideas!</h2>
       </div>
 
+      <div className="container_activity">
+        {allActivities.map((element, index) => (
+          <Activity key = {index}
+          activity = {element}
+          index = {index}/>
+        ))}
+      </div>
+
+      <div className='container'>
+        <button>Get More!</button>
+      </div>
+
+
+
   
-      {allActivities.map((element, index) => (
-        <Activity key = {index}
-        activity = {element}/>
-      ))}
+
+
 
 
 

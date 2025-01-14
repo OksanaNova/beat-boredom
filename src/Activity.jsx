@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Activity({activity}) {
+function Activity({activity, index}) {
 
     const [result, setResult] = useState('')
 
@@ -17,12 +17,11 @@ function Activity({activity}) {
 
 
     return (
-        <div className="container_activity">
-            <div className="item">
-              <h3>{activity}</h3>
-              <p>{result}</p>
-            </div>
+        <div className={`item number-${index}`}>
+            <h3>{activity}</h3>
+            <p className="activity">{result}</p>
         </div>
+
     )
 }
 
