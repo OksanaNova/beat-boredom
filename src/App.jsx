@@ -30,20 +30,6 @@ function App() {
         ))}
       </div>
 
-      <div className='container'>
-        <button>Get More!</button>
-      </div>
-
-
-
-  
-
-
-
-
-
-
-
       <video className='video' autoPlay loop muted playsInline controls>
         <source src={happy} type='video/mp4' />
       </video>

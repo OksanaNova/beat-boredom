@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#faf6fc, #e7effa);
+    background: rgba(203, 231, 228, 0.4);
 }
 
 .container {
@@ -10,14 +10,14 @@ body {
 }
 
 .header {
-    background: url('./assets/back3.jpg');
+    background: url('./assets/back.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 25vh;
+    height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
-
+    padding: 40px 20px;
 }
 
 h1 {
@@ -36,16 +36,13 @@ h1 {
     font-family: "Poppins", serif;
     font-weight: 300;
     margin: 0;
+    text-align: center;
 }
 
 button {
-    font-family: "Roboto Serif", serif;
-    font-style: italic;
-    font-size: 20px;
-    background-color: transparent;
-    padding: 10px 30px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    margin-left: 10px;
 }
 
 button:hover {
@@ -76,14 +73,17 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     text-align: center;
     padding: 0 40px;
     margin: 20px;
     width: 250px;
     height: 150px;
-    /* border: 1px solid rgb(162, 233, 189); */
     border-radius: 10px;
-    /* color: #fff; */
+}
+
+.item_content {
+    display: flex;
 }
 
 .number-0 {
@@ -150,4 +150,39 @@ h3 {
     text-transform: uppercase;
 }
 
+
+@media all and (max-width: 1500px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .header {
+        padding: 10px;
+    }
+
+    .item {
+        margin: 10px;
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
+
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+
+    .item {
+        padding: 0 10px;
+
+    }
+}
 

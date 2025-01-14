@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import icon from './assets/refresh.png'
 
 function Activity({activity, index}) {
 
@@ -18,10 +19,15 @@ function Activity({activity, index}) {
 
     return (
         <div className={`item number-${index}`}>
-            <h3>{activity}</h3>
-            <p className="activity">{result}</p>
-        </div>
 
+            <div className="item_content">
+               <h3>{activity}</h3>
+              <button onClick={getActivity}><img src={icon} alt="refresh" width="20px"/></button>
+            </div>
+
+            <p className="activity">{result}</p>
+
+        </div>
     )
 }
 
