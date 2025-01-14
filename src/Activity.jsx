@@ -10,7 +10,7 @@ function Activity({activity, index}) {
     }, [])
 
     const getActivity = async () => {
-        const response = await fetch(`http://bored.api.lewagon.com/api/activity?type=${activity}`);
+        const response = await fetch(`https://bored.api.lewagon.com/api/activity?type=${activity}`);
         const data = await response.json();
         // console.log(data);
         setResult(data.activity)
