@@ -87,55 +87,55 @@ h2 {
     display: flex;
 }
 
-.number-0 {
+.number-education {
     background: url('./assets/act1.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-1 {
+.number-recreational {
     background: url('./assets/act2.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-2 {
+.number-social {
     background: url('./assets/act3.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-3 {
+.number-diy {
     background: url('./assets/act4.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-4 {
+.number-charity {
     background: url('./assets/act5.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-5 {
+.number-cooking {
     background: url('./assets/act6.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-6 {
+.number-relaxation {
     background: url('./assets/act7.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-7 {
+.number-music {
     background: url('./assets/act8.jpeg');
     background-position: center;
     background-size: cover;
 }
 
-.number-8 {
+.number-busywork {
     background: url('./assets/act9.jpeg');
     background-position: center;
     background-size: cover;
