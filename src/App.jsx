@@ -25,8 +25,7 @@ function App() {
       <div className="container_activity">
         {allActivities.map((element, index) => (
           <Activity key = {index}
-          activity = {element}
-          index = {index}/>
+          activity = {element}/>
         ))}
       </div>
 
